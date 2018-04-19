@@ -18,7 +18,7 @@ public class ChatClient extends JFrame implements ActionListener{
 		setTitle("클라이언트 채팅 창");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		Container c = getContentPane();
-		//1
+		//
 		c.setLayout(new BorderLayout()); //BorderLayout  배치관리자의 사용
 		receiver = new Receiver();	// 서버에서 받은 메시지를 출력할 컴퍼넌트
 		receiver.setEditable(false); // 편집 ㄴㄴ
